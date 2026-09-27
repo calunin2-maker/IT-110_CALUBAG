@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Practical Application Activity</title>
+</head>
+<body>
+
+   <h1 id="main-heading">HTML Practical Application Activity</h1>
+
+    <section id="images">
+    <h2>Images</h2>
+
+    <figure>
+        <img src="images/mount.jpg"
+             alt="A mountain landscape"
+             width="400">
+        <figcaption>A beautiful mountain landscape.</figcaption>
+    </figure>
+
+    <img src="images/Ant.jpg"
+         alt="Red Fire Ant"
+         width="400">
+
+    <img src="images/Pickachu.jpg"
+         alt="Pickachu"
+         width="400">
+</section>
+
+    <section id="hyperlinks">
+    <h2>Hyperlinks</h2>
+
+    <p>
+        Internal link:
+       <a href="#images">Go to Images section</a>
+    </p>
+
+    <p>
+        External link:
+        <a href="https://www.google.com" target="_blank">Visit Google</a>
+    </p>
+
+    <p>
+        Email link:
+       <a href="mailto:CalubagNino15@gmail.com">Send me an email</a>
+    </p>
+
+    <p>
+        Same-page anchor:
+        <a href="#html-dom">Go to HTML DOM section</a>
+    </p>
+</section>
+
+    <section id="multimedia">
+    <h2>Multimedia</h2>
+
+    <h3>Audio</h3>
+    <audio controls>
+        <source src="media/arcade.wav" type="audio/wav">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h3>Video</h3>
+    <video controls width="500">
+        <source src="media/5sec.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+</section>
+
+    <section id="useful-tags">
+    <h2>Useful Tags</h2>
+
+    <!-- I chose blockquote to display an important quotation separately. -->
+    <blockquote>
+        Learning HTML is an important step in understanding web development.
+    </blockquote>
+
+    <!-- I chose mark to highlight important information in the text. -->
+    <p>
+        HTML is <mark>important</mark> for creating the structure of a webpage.
+    </p>
+
+    <!-- I chose abbr to provide the full meaning of an abbreviation. -->
+    <p>
+        <abbr title="HyperText Markup Language">HTML</abbr> is a markup language used to create webpages.
+    </p>
+
+    <!-- I chose code to display HTML code as computer code. -->
+    <p>
+        An example of an HTML heading is <code>&lt;h1&gt;Hello&lt;/h1&gt;</code>.
+    </p>
+
+    <p>&copy; 2026 HTML Practical Application Activity</p>
+</section>
+
+    <section id="html-dom">
+    <h2>HTML DOM</h2>
+
+    <p>
+        The HTML DOM represents a webpage as a tree of elements.
+        Each element can have a parent and child relationship.
+    </p>
+
+    <ul id="dom-list">
+        <li>HTML is the root element.</li>
+        <li>Body is a child of HTML.</li>
+        <li>Main content is placed inside Body.</li>
+    </ul>
+
+    <p>
+        <a href="#main-heading">Back to the top</a>
+    </p>
+</section>
+
+</body>
+</html><!--
+The body element is the parent of the main content elements because they are placed inside the body.
+The section elements are children of the body element.
+Inside each section, elements such as headings, paragraphs, images, and links become child elements.
+For example, the ul element is the parent of its li elements in the HTML DOM section.
+-->
